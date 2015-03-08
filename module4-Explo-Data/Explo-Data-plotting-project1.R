@@ -1,5 +1,4 @@
-## Create subdata file for plotting
-## Top part needs to run one time
+## Create subdata file for plotting. This part needs to run one time
 
 fileUrl <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
 download.file(fileUrl, destfile = "data.zip")
